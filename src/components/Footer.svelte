@@ -21,11 +21,11 @@
         </div>
       {/each}
       <div class="py-2 md:py-0 flex items-center flex-col">
-        <div class="py-2"><img src={logo} class="h-8" alt="gdg_logo" /></div>
+        <div class="py-2"><img src="{logo}" class="h-8" alt="gdg_logo" /></div>
       </div>
     </div>
   </div>
-  <div class="flex justify-center">
+  <!-- <div class="flex justify-center">
     <div class="py-4 text-gray-200 font-light">
       Icons made by
       <a
@@ -34,5 +34,5 @@
       from
       <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
     </div>
-  </div>
+  </div> -->
 </footer>

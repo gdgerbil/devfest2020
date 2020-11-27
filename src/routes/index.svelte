@@ -2,6 +2,8 @@
 	import Banner from '../components/Banner.svelte';
 	import AboutSection from '../components/AboutSection.svelte';
 	import SpeakersSection from '../components/SpeakersSection.svelte';
+import SponsorsSection from '../components/SponsorsSection.svelte';
+import ScheduleSection from '../components/ScheduleSection.svelte';
 
 </script>
 
@@ -30,5 +32,19 @@
 <div class="flex justify-center px-4 bg-gray-100">
 	<div class="max-w-screen-lg prose-lg">
 		<SpeakersSection></SpeakersSection>
+	</div>
+</div>
+
+
+
+<div class="flex justify-center px-4 bg-gdg-red-100">
+	<div class="max-w-screen-lg prose-lg">
+		<SponsorsSection></SponsorsSection>
+	</div>
+</div>
+
+<div class="flex justify-center px-4 bg-gdg-green-100">
+	<div class="max-w-screen-xl prose-lg w-full">
+		<ScheduleSection></ScheduleSection>
 	</div>
 </div>
