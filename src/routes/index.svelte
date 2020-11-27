@@ -16,7 +16,7 @@
 </div>
 
 <div class="flex justify-center px-4">
-	<div class="max-w-screen-lg prose prose-lg">
+	<div class="max-w-screen-lg prose-lg">
 		<AboutSection></AboutSection>
 	</div>
 </div>
@@ -28,7 +28,7 @@
 </div> -->
 
 <div class="flex justify-center px-4 bg-gray-100">
-	<div class="max-w-screen-lg prose prose-lg">
+	<div class="max-w-screen-lg prose-lg">
 		<SpeakersSection></SpeakersSection>
 	</div>
 </div>
