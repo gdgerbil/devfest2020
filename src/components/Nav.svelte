@@ -18,15 +18,16 @@
             home
           </a>
         </li>
-        <li class="sm:mx-5">
-          <a class="p-1" aria-current={segment==='about' ? 'page' : undefined} href="#schedule">
-            agenda
-          </a>
-        </li>
-
+        
         <li class="sm:mx-5">
           <a class="p-1" aria-current={segment==='about' ? 'page' : undefined} href="#about">
             about
+          </a>
+        </li>
+        
+        <li class="sm:mx-5">
+          <a class="p-1" aria-current={segment==='about' ? 'page' : undefined} href="#schedule">
+            agenda
           </a>
         </li>
       </ul>
