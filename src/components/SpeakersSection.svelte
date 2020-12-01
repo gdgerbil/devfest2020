@@ -5,7 +5,7 @@
   import mercer from "../images/mercer.jpg"
   import ahmed from "../images/ahmed.jpg"
   import mevan from "../images/mevan.jpg"
-  import murt from "../images/murt.jpg"
+  import murt from "../images/themurt.jpg"
   import khadijah from "../images/khadijah.jpg"
   import banu from "../images/banu.jpg"
 
