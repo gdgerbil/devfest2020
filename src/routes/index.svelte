@@ -1,26 +1,25 @@
 <script>
-	import Banner from '../components/Banner.svelte';
-	import AboutSection from '../components/AboutSection.svelte';
-	import SpeakersSection from '../components/SpeakersSection.svelte';
-import SponsorsSection from '../components/SponsorsSection.svelte';
-import ScheduleSection from '../components/ScheduleSection.svelte';
-
+  import Banner from "../components/Banner.svelte";
+  import AboutSection from "../components/AboutSection.svelte";
+  import SpeakersSection from "../components/SpeakersSection.svelte";
+  import SponsorsSection from "../components/SponsorsSection.svelte";
+  import ScheduleSection from "../components/ScheduleSection.svelte";
 </script>
 
 <svelte:head>
-	<title>DevFest Iraq 2020</title>
+  <title>DevFest Iraq 2020</title>
 </svelte:head>
 
-<div class="flex w-full justify-center" style="background: #f8f9fa">
-	<div class="flex flex-1 max-w-screen-xl">
-		<Banner></Banner>
-	</div>
+<div class="flex w-full justify-center space-y-10" style="background: #f8f9fa">
+  <div class="flex flex-1 max-w-screen-xl">
+    <Banner />
+  </div>
 </div>
 
 <div class="flex justify-center px-4">
-	<div class="max-w-screen-lg prose-lg">
-		<AboutSection></AboutSection>
-	</div>
+  <div class="max-w-screen-lg prose-lg">
+    <AboutSection />
+  </div>
 </div>
 
 <!-- <div class="flex justify-center py-2 text-4xl text-gray-500">
@@ -30,21 +29,19 @@ import ScheduleSection from '../components/ScheduleSection.svelte';
 </div> -->
 
 <div class="flex justify-center px-4 bg-gray-100">
-	<div class="max-w-screen-lg prose-lg">
-		<SpeakersSection></SpeakersSection>
-	</div>
+  <div class="max-w-screen-lg prose-lg">
+    <SpeakersSection />
+  </div>
 </div>
 
-
-
 <div class="flex justify-center px-4 bg-gdg-red-100">
-	<div class="max-w-screen-lg prose-lg">
-		<SponsorsSection></SponsorsSection>
-	</div>
+  <div class="max-w-screen-lg prose-lg">
+    <SponsorsSection />
+  </div>
 </div>
 
 <div class="flex justify-center px-4 bg-gdg-green-100">
-	<div class="max-w-screen-xl prose-lg w-full">
-		<ScheduleSection></ScheduleSection>
-	</div>
+  <div class="max-w-screen-xl prose-lg w-full">
+    <ScheduleSection />
+  </div>
 </div>

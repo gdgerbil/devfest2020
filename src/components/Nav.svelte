@@ -14,19 +14,19 @@
     <li class="flex-1 sm:flex-none">
       <ul class="list-none flex flex-1 justify-around sm:justify-between">
         <li class="sm:mx-5">
-          <a class="p-1  transition-colors duration-200 {linkClasses(segment===undefined)}" aria-current={segment===undefined ? 'page' : undefined} href=".">
+          <a class="p-1  transition-colors duration-200 {linkClasses(segment===undefined)}" aria-current={segment===undefined ? 'page' : undefined} href="#/">
             home
           </a>
         </li>
         <li class="sm:mx-5">
-          <a class="p-1" aria-current={segment==='about' ? 'page' : undefined} href="about">
+          <a class="p-1" aria-current={segment==='about' ? 'page' : undefined} href="#schedule">
             agenda
           </a>
         </li>
 
         <li class="sm:mx-5">
-          <a class="p-1" aria-current={segment==='about' ? 'page' : undefined} href="about">
-            team
+          <a class="p-1" aria-current={segment==='about' ? 'page' : undefined} href="#about">
+            about
           </a>
         </li>
       </ul>

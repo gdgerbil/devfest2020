@@ -53,7 +53,7 @@
   class="flex flex-col items-stretch px-0 md:px-16 lg:items-center pb-4">
   <h2 class="text-center flex justify-center items-center">
     <HashIcon />
-    The Schedule
+    The Agenda
   </h2>
   <div class="flex flex-wrap justify-center">
     {#each days as day, i}
@@ -65,10 +65,10 @@
               <div class="p-2">
                 <div class="p-4 bg-white rounded">
                   <div>
-                    <h6 class="py-1">{session.title}</h6>
+                    <h6 class="py-1 text-gdg-blue-700">{session.title}</h6>
                     <div class="text-sm font-light">{session.runtime}</div>
                     {#if session.speaker}
-                      <div class="text-base py-1">— {session.speaker}</div>
+                      <div class="text-base py-1 text-gray-700">— {session.speaker}</div>
                     {/if}
                   </div>
                 </div>
