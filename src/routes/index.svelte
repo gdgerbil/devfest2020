@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-  <title>DevFest Iraq 2020</title>
+  <title>DevFest Erbil 2020</title>
 </svelte:head>
 
 <div class="flex w-full justify-center space-y-10" style="background: #f8f9fa">

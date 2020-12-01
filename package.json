@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "DevFestErbil2020",
+  "description": "DevFest Erbil 2020",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
