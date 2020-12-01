@@ -4,6 +4,7 @@
   import SpeakersSection from "../components/SpeakersSection.svelte";
   import SponsorsSection from "../components/SponsorsSection.svelte";
   import ScheduleSection from "../components/ScheduleSection.svelte";
+  import AttendanceSection from "../components/AttendanceSection.svelte";
 </script>
 
 <svelte:head>
@@ -19,6 +20,13 @@
 <div class="flex justify-center px-4">
   <div class="max-w-screen-lg prose-lg">
     <AboutSection />
+  </div>
+</div>
+
+
+<div class="flex justify-center px-4 bg-gdg-blue-100">
+  <div class="max-w-screen-lg prose-lg">
+    <AttendanceSection />
   </div>
 </div>
 

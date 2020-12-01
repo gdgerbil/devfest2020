@@ -1,11 +1,13 @@
 <script>
   import HashIcon from "../components/HashIcon.svelte";
-  import LinkedIn from "./icons/LinkedIn.svelte";
-  import Globe from "./icons/Globe.svelte";
-  import Twitter from "./icons/Twitter.svelte";
-  import Instagram from "./icons/Instagram.svelte";
-  import Facebook from "./icons/Facebook.svelte";
-  import Link from "./icons/Link.svelte";
+  import mo from "../images/mo.jpg"
+  import tom from "../images/tom.jpg"
+  import mercer from "../images/mercer.jpg"
+  import ahmed from "../images/ahmed.jpg"
+  import mevan from "../images/mevan.jpg"
+  import murt from "../images/murt.jpg"
+  import khadijah from "../images/khadijah.jpg"
+  import banu from "../images/banu.jpg"
 
   const icons = {
     linkedIn: "icon-linkedin",
@@ -17,31 +19,84 @@
 
   const speakers = [
     {
-      name: "Khadijah Abdulnabi",
-      title: "Graphics Designer",
-      avatar:
-        "https://images.squarespace-cdn.com/content/v1/598c24f33e00beaec71cf321/1598014182359-GBDW68CUPCY7ZF6QPO2P/ke17ZwdGBToddI8pDm48kFyD7pzB8zoMIVY5aiUuFlp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jG2lbcDYBOeMi4OFSYem8DMb5PTLoEDdB05UqhYu-xbnSznFxIRsaAU-3g5IaylIg/Khadijah_Brand_Strategy_Graphic_Design_MENA.jpg?format=500w",
+      name: "Ahmed Al-Kheerow",
+      title: "UI/UX Designer",
+      avatar: ahmed,
       contact: {
-        linkedIn: "https://linkedin.com/in/",
-        website: "https://yakhadijah.com/",
-        twitter: 'https://twitter.com',
-        instagram: 'https://twitter.com',
-        foo: 'https://twitter.com',
+        website: "https://alkheerow.com/",
+        instagram: "https://www.instagram.com/ahmed.alkheerow/",
+        facebook: "https://www.facebook.com/ahmed.a.alkheerow/",
+        twitter: "https://twitter.com/alkheerow",
+        linkedIn: "https://www.linkedin.com/in/ahmed-al-kheerow-9095191a3/"
       },
     },
     {
       name: "Khadijah Abdulnabi",
       title: "Graphics Designer",
-      avatar:
-        "https://images.squarespace-cdn.com/content/v1/598c24f33e00beaec71cf321/1598014182359-GBDW68CUPCY7ZF6QPO2P/ke17ZwdGBToddI8pDm48kFyD7pzB8zoMIVY5aiUuFlp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jG2lbcDYBOeMi4OFSYem8DMb5PTLoEDdB05UqhYu-xbnSznFxIRsaAU-3g5IaylIg/Khadijah_Brand_Strategy_Graphic_Design_MENA.jpg?format=500w",
+      avatar: khadijah,
       contact: {
-        linkedIn: "https://linkedin.com/in/",
+        linkedIn: "https://www.linkedin.com/in/khadijahabdulnabi/",
         website: "https://yakhadijah.com/",
-        facebook: 'https://twitter.com',
-
+        instagram: "https://www.instagram.com/yakhadijah/",
+        behance: "https://www.behance.net/khadijahab03f2"
       },
     },
-  ];
+    {
+      name: "Mercer Schuchardt",
+      title: "Data Engineering at Chatham Financial",
+      avatar: mercer,
+      contact: {
+        instagram: "https://www.instagram.com/em.and.merce/",
+      },
+    },
+    {
+      name: "Banu Ali",
+      title: "Chevening Scholar - MSc Management at Queen Mary",
+      avatar: banu,
+      contact: {
+        instagram: "https://www.instagram.com/_banuali_/",
+      },
+    },
+    {
+      name: "Mevan Babakar",
+      title: "Deputy CEO at Full Fact",
+      avatar: mevan,
+      contact: {
+        instagram: "https://www.instagram.com/em.and.merce/",
+        linkedIn: "https://www.linkedin.com/in/mevanbabakar/",
+      },
+    },
+    {
+      name: "Tom Lynch",
+      title: "Data Engineer",
+      avatar: tom,
+      contact: {
+        instagram: "https://www.instagram.com/tompiler/",
+        website: "https://tompiler.net/",
+        twitter: "https://twitter.com/tompiler",
+        linkedIn: "https://www.linkedin.com/in/thomas-lynch-88700354/",
+      },
+    },
+    {
+      name: "Murtadha Al-Tameemi",
+      title: "Software Engineer at Facebook",
+      avatar: murt,
+      contact: {
+        instagram: "https://www.instagram.com/the.murt/",
+        facebook: "https://www.facebook.com/murt",
+      },
+    },
+    {
+      name: "Mohammed Abdulkareem",
+      title: "Full Stack Engineer at VeeLoop",
+      avatar: mo,
+      contact: {
+        linkedIn: "https://linkedin.com/in/mohd-ai/",
+        website: "https://mohd.dev/",
+        twitter: 'https://twitter.com/MoAbdulkereem',
+      },
+    },
+  ].sort((a, b) => a.name.localeCompare(b.name));
 </script>
 
 <section id="speakers">
@@ -63,14 +118,14 @@
         <h4 class="text-gdg-blue-600">{speaker.name}</h4>
         <h6 class="font-light text-gray-600 text-base">{speaker.title}</h6>
         <div class="py-2 flex flex-1 flex-row justify-center">
-          {#each Object.entries(speaker.contact) as [key, url]}
+          {#each Object.entries(speaker.contact).sort(([key1], [key2]) => key1.localeCompare(key2)) as [key, url]}
             <div class="px-1 text-xl">
               {#if icons[key]}
                 <a href={url}>
                   <i class="icon {icons[key]}" />
                 </a>
               {:else}
-                <a href={url}>
+                <a href={url} title="{key}">
                   <i class="icon icon-external-link" />
                 </a>
               {/if}

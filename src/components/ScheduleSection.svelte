@@ -30,19 +30,23 @@
     [
       {
         title: "Painfully Common UX Myths",
-        runtime: "7:00pm – 8:00pm",
+        runtime: "7:00pm – 7:45pm",
         speaker: "Khadijah Abdulnabi",
       },
-
+      {
+        title: "An Introduction to Amazon Web Services",
+        runtime: "7:45pm – 8:30pm",
+        speaker: "Tom Lynch",
+      },
       {
         title: "Level Up: tech mentoring for Iraq, Iran and Syria",
-        runtime: "8:00pm – 9:00pm",
+        runtime: "8:30pm – 9:15pm",
         speaker: "Mevan Babakr",
       },
       {
         title: "Crush Your Coding Interview",
-        runtime: "9:00pm – 11:00pm",
-        speaker: "Murtada Al-Tamimi",
+        runtime: "9:30pm – 11:00pm",
+        speaker: "Murtadha Al-Tameemi",
       },
     ],
   ];
