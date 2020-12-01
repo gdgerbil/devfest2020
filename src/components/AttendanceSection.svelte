@@ -19,6 +19,6 @@
   </p>
 
   <div class="pb-8">
-    <iframe width="1027" height="578" src="https://www.youtube.com/embed/jdF6IiTvlVE?list=PLs_lS4IO3E7UBRUOaHY9KDcPSQ7fQiaqM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="auto" height="auto" src="https://www.youtube.com/embed/jdF6IiTvlVE?list=PLs_lS4IO3E7UBRUOaHY9KDcPSQ7fQiaqM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </section>
