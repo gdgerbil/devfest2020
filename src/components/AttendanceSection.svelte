@@ -18,7 +18,7 @@
       playlist</a>.
   </p>
 
-  <div class="pb-8">
-    <iframe width="auto" height="auto" src="https://www.youtube.com/embed/jdF6IiTvlVE?list=PLs_lS4IO3E7UBRUOaHY9KDcPSQ7fQiaqM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="pb-8 flex flex-1">
+    <iframe class="flex-1 h-80 sm:w-96 md:h-128 lg:h-144" title="DevFest Erbil 2020 Playlist" src="https://www.youtube.com/embed/jdF6IiTvlVE?list=PLs_lS4IO3E7UBRUOaHY9KDcPSQ7fQiaqM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </section>

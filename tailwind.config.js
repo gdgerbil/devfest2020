@@ -11,6 +11,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        "80": "20rem",
+        "96": "24rem",
+        "128": "32rem",
+        "144": "36rem",
+        "160": "40rem",
+      },
       colors: {
         "gdg-blue": {
           50: "#F6F9FE",
