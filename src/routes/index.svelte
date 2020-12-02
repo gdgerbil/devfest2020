@@ -5,10 +5,14 @@
   import SponsorsSection from "../components/SponsorsSection.svelte";
   import ScheduleSection from "../components/ScheduleSection.svelte";
   import AttendanceSection from "../components/AttendanceSection.svelte";
+  import gdgerbil from '../images/gdgerbil.png'
 </script>
 
 <svelte:head>
   <title>DevFest Erbil 2020</title>
+  <meta name="description" content="DevFest Erbil 2020 by GDG Erbil">
+  <meta property="og:title" content="DevFest Erbil 2020"/>
+  <meta property="og:image" content="{gdgerbil}"/>
 </svelte:head>
 
 <div class="flex w-full justify-center space-y-10" style="background: #f8f9fa">
