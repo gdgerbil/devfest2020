@@ -6,7 +6,7 @@
 
 <Nav {segment}/>
 
-<main>
+<main class="font-mono">
 	<slot></slot>
 </main>
 
