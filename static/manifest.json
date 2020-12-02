@@ -3,7 +3,7 @@
 	"theme_color": "#4285f4",
 	"name": "GDG Erbil",
 	"short_name": "gdgerbil",
-	"display": "minimal-ui",
+	"display": "fullscreen",
 	"start_url": "/",
 	"icons": [
 		{
