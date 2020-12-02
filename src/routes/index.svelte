@@ -5,14 +5,29 @@
   import SponsorsSection from "../components/SponsorsSection.svelte";
   import ScheduleSection from "../components/ScheduleSection.svelte";
   import AttendanceSection from "../components/AttendanceSection.svelte";
-  import gdgerbil from '../images/gdgerbil.png'
+  import gdgerbil from "../images/gdgerbil.png";
 </script>
 
 <svelte:head>
   <title>DevFest Erbil 2020</title>
-  <meta name="description" content="DevFest Erbil 2020 by GDG Erbil">
-  <meta property="og:title" content="DevFest Erbil 2020"/>
-  <meta property="og:image" content="{gdgerbil}"/>
+  <meta name="title" content="DevFest Erbil 2020" />
+  <meta name="description" content="DevFest Erbil 2020 by GDG Erbil" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gdgerbil.com/" />
+  <meta property="og:title" content="DevFest Erbil 2020" />
+  <meta property="og:description" content="DevFest Erbil 2020 by GDG Erbil" />
+  <meta property="og:image" content={gdgerbil} />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://gdgerbil.com/" />
+  <meta property="twitter:title" content="DevFest Erbil 2020" />
+  <meta
+    property="twitter:description"
+    content="DevFest Erbil 2020 by GDG Erbil" />
+  <meta property="twitter:image" content={gdgerbil} />
 </svelte:head>
 
 <div class="flex w-full justify-center space-y-10" style="background: #f8f9fa">
@@ -26,7 +41,6 @@
     <AboutSection />
   </div>
 </div>
-
 
 <div class="flex justify-center px-4 bg-gdg-yellow-100">
   <div class="max-w-screen-lg prose-lg">
